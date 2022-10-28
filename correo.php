@@ -3,7 +3,7 @@
         if (!empty($_POST['nombre']) && !empty($_POST['email']) && !empty($_POST['mensaje']));
     $nombre = $_POST['nombre'];
     $email = $_POST['email'];
-    //$textarea = $_POST['textarea'];
+    $textarea = $_POST['textarea'];
     $asunto = $_POST['PORTFOLIO MARTIN MESSNER'];
     $mensaje = $_POST['mensaje'];
     $emaill = "martinmessner95@gmail.com";
