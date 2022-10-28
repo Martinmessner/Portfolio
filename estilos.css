@@ -1,0 +1,330 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Background-color: GRIS PARA VER SI USAR background-color: rgb(60, 60, 60); */
+body {
+    background-color: rgb(5 4 4 / 89%);
+    font-family: serif;
+}
+
+textarea {
+    resize: none;
+}
+
+/* sacar decoracion li y a */
+ul {
+    list-style: none;
+}
+small {
+    font-size: .9em;
+}
+a {
+    text-decoration: none;
+    font-size: .8em;
+    color: #2f2c2c;
+}
+
+.panel-btn {
+    position: fixed;
+    z-index: 25;
+    right: 1vh;
+    top: 1vh;
+    width: 4em;
+    height: 4em;
+    visibility: hidden;
+}
+
+/* imagen en el header a la izquierda*/
+.imagen__logo {
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    height: 60px;
+
+}
+
+/* Imagen de fondo  */
+.contenedor__fondo {
+    background-image: url("./img/programador.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .4;
+}
+
+.contenedor__fondo--presentacion {
+    padding-top: 8em;
+    color: #dddddd;
+    position: absolute;
+    z-index: 2;
+    background: radial-gradient(#2f2c2c, #01a4ff00);
+}
+
+/* Contenedor del Header Principal */
+.contenedor__header {
+    background-color: #dddddd;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.iconos__presentacion {
+    display: flex;
+    font-size: 1.8em;
+    justify-content: flex-start;
+    margin: 0;
+    position: absolute;
+    left: 0vh;
+}
+
+/* PRESENTACION DEL TEXTO MARTIN MESSNER */
+.texto__presentacion {
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: rgb(255 153 0);
+}
+.texto__presentacion--pdf {
+    background-color: rgb(255 153 0);
+    font-size: 1.5em;
+    border-radius: 35px;
+    letter-spacing: 4px;
+    padding: 15px;
+}
+.texto__presentacion--pdf:hover {
+    background-color: #2f2c2c;
+    color: rgb(255 153 0);
+}
+.texto__presentacion--div {
+    padding-top: 2em;
+}
+/* Contenedor de la barra de navegacion /home /proyects /contacto  */
+.contenedor__navegacion {
+    display: flex;
+    justify-content: flex-end;
+    background-color: burlywood;
+}
+
+/* fuente y padding de home, proyects, contacto de la barra de navegacion */
+.contenedor__navegacion--nav {
+    padding: 10px;
+    font-size: 2em;
+}
+
+#skills,
+#proyectos,
+#contacto,
+#inicio {
+    scroll-margin-top: 2ex;
+
+}
+
+
+/* Zona de : Skills y Contacto h1 y h2 */
+.contenedor__skills-h1,
+.contenedor__form--h2,
+.contenedor__proyectos--h2 {
+    padding: 1.2em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2.3em;
+    color: #000000;
+    background-color: burlywood;
+}
+
+/* Contenedor Skills  */
+.contenedor__skills {
+    background-color: burlywood;
+
+}
+
+/* Contenedor logo lenguajes / Html, Css, Javascript, etc */
+.contenedor__lenguajes {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+/* Imagenes de los lenguajes / Html, Css, Javascript, etc */
+.logo-lenguajes--img {
+    display: flex;
+    height: 120px;
+    padding: 10px;
+    margin: 4px;
+
+}
+
+.logo-lenguajes--img:hover {
+    transition: .7s ease-in;
+    transform: rotate(360deg);
+}
+
+/* Fondo del contenedor del formulario */
+.contenedor__form {
+    background-color: burlywood;
+}
+
+.boton__div {
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    color:  rgb(255 153 0);
+    cursor: pointer;
+    width: 49%;
+    border: 1px rgb(255 153 0) solid;
+    border-radius: 15px;
+}
+
+.boton__div:hover {
+    font-weight: 800;
+}
+
+/* Estilos del Form propiamente dicho */
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+
+}
+
+/* Estilos de cada input del form  */
+.form__input {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #DDDDDD;
+}
+
+.boton__enviar {
+    background-color: #DDDDDD;
+    border: 2px solid #2f2c2c;
+    color: #2f2c2c;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contenedor__input--div {
+    background-color: #2f2c2c;
+    color: burlywood;
+    width: 80%;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.h2__input {
+    text-align: center;
+    padding-top: .7em;
+}
+
+.boton__enviar:hover {
+    background-color: indigo;
+    color: #DDDDDD;
+}
+
+/*  PARRAFO LOREM DESPUES SACAR ///asdasd///asd */
+p {
+    color:rgb(255 153 0);
+}
+
+/* Footer */
+.footer__ul {
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+/* IConos FOOTER */
+.iconosfooter {
+    color: #2f2c2c;
+    margin: 1em;
+}
+
+.iconosfooter:hover {
+    transition: .7s ease-in;
+    transform: rotate(360deg)scale(1.8);
+}
+
+/* fuente y padding de home, proyects, contacto de la barra de navegacion */
+/* fuente y padding de home, proyects, contacto de la barra de navegacion */
+/* fuente y padding de home, proyects, contacto de la barra de navegacion */
+/* fuente y padding de home, proyects, contacto de la barra de navegacion */
+/* fuente y padding de home, proyects, contacto de la barra de navegacion */
+/* fuente y padding de home, proyects, contacto de la barra de navegacion */
+/* fuente y padding de home, proyects, contacto de la barra de navegacion */
+
+/* MEDIA QUERIES !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media only screen and (max-width: 740px) {
+
+    .contenedor__navegacion--nav,
+    .dark-theme-btn {
+        visibility: hidden;
+    }
+
+    .panel-btn {
+        visibility: visible;
+    }
+
+    .contenedor__navegacion.activo .contenedor__navegacion--nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        visibility: visible;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        text-align: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 4px;
+        margin: 20px;
+    }
+
+    .contenedor__navegacion.activo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        height: 101vh;
+        width: 100%;
+        text-align: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-around;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-color: #202124;
+        scroll-behavior: smooth;
+        background-color: burlywood;
+
+    }
+
+    .contenedor__navegacion.activo .dark-theme-btn {
+        visibility: visible;
+    }
+
+    .contenedor__navegacion.activo .iconos__presentacion {
+        visibility: hidden;
+    }
+}
