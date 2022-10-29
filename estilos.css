@@ -301,7 +301,7 @@ p {
         display: flex;
         padding: 0;
         margin: 0;
-        height: 101vh;
+        height: 104vh;
         width: 100%;
         text-align: center;
         -webkit-box-align: center;
@@ -328,3 +328,27 @@ p {
         visibility: hidden;
     }
 }
+
+@media only screen and (max-width: 429px) { 
+    .cardmodal {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 847px) {  
+    form {
+        width: 70%;
+    }
+
+}
+@media only screen and (max-width: 350px) { 
+    .footer__ul {
+        font-size: 2em;
+    }
+
+}
+
+/* 
+            429px se rompe .
+
++/
