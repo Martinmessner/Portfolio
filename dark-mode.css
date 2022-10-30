@@ -20,15 +20,20 @@
     background-color: #2f2c2c;
 }
 .dark-mode .hamburger-inner {
-    background-color: #DDDDDD !important;
+    background-color: rgb(255 153 0) !important;
 }
 
 .dark-mode .hamburger-inner:after {
-    background-color: #DDDDDD !important;
+    background-color: rgb(255 153 0) !important;
 }
-
+.dark-mode small {
+    color: rgb(255 153 0);
+}
+.dark-mode .h2__input {
+    color: rgb(255 153 0);
+}
 .dark-mode .hamburger-inner:before {
-    background-color: #DDDDDD !important;
+    background-color: rgb(255 153 0) !important;
 }
 
 .dark-mode .dark-theme-btn {
@@ -40,7 +45,7 @@
 }
 
 .dark-mode a {
-    color: #DDDDDD;
+    color: rgb(255 153 0);
 }
 .dark-mode .texto__presentacion--pdf {
     color: #2f2c2c;
@@ -58,7 +63,7 @@
 }
 
 .dark-mode .contenedor__skills-h1 {
-    color: #DDDDDD;
+    color: rgb(255 153 0);
     background-color: #2f2c2c;
 }
 
@@ -68,22 +73,22 @@
 
 .dark-mode .contenedor__form--h2 {
     background-color: #2f2c2c;
-    color: #DDDDDD;
+    color: rgb(255 153 0);
 }
 
 .dark-mode .contenedor__proyectos--h2 {
-    color: #DDDDDD;
+    color: rgb(255 153 0);
     background-color: #2f2c2c;
 
 }
 .dark-mode p {
-    color: #DDDDDD;
+    color: rgb(255 153 0);
 }
 .dark-mode .footer__ul {
     background-color: #2f2c2c;
 }
 
 .dark-mode .iconosfooter {
-    color: #DDDDDD;
+    color: rgb(255 153 0);
 
 }
