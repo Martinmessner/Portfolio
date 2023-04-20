@@ -77,7 +77,7 @@ a {
 
 .iconos__presentacion {
     display: flex;
-    font-size: 1.8em;
+    font-size: 1.7em;
     justify-content: flex-start;
     margin: 0;
     position: absolute;
@@ -157,9 +157,9 @@ a {
 /* Imagenes de los lenguajes / Html, Css, Javascript, etc */
 .logo-lenguajes--img {
     display: flex;
-    height: 120px;
+    height: 88px;
     padding: 10px;
-    margin: 4px;
+    margin: 10px;
 
 }
 
