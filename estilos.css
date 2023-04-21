@@ -52,7 +52,7 @@ a {
 
 /* Imagen de fondo  */
 .contenedor__fondo {
-    background-image: url("./img/programador.jpg");
+    background-image: url("./img/programador.webp");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
