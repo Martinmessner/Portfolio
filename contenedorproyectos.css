@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: burlywood;
-    gap: 20px;
+    gap: 4em;
 }
 .contenedor__proyecto--img {
     height: 200px;
