@@ -332,8 +332,11 @@ p {
 
 @media only screen and (max-width: 768px) { 
         .logo-lenguajes--img {
-            height: 100px;
+            height: 80px;
          } 
+         .contenedor__fondo {
+            background-position: center;
+         }
 }
 
 @media only screen and (max-width: 350px) { 
@@ -348,14 +351,3 @@ p {
     }
 
  }
-
-/* 
-         .contenedor__input--div {
-    background-color: #2f2c2c;
-    color: burlywood;
-    width: 80%;
-    margin: auto;
-    border-radius: 5%;
-}
-        
-+/
