@@ -7,11 +7,11 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: burlywood;
-    gap: 2.15em;
+    gap: 1em;
 }
 .contenedor__proyecto--img {
-    height: 200px;
-    width: 100%;
+    height: 250px;
+    width: 500px;
     display: flex;
     margin: auto;
 }
@@ -23,8 +23,8 @@
     background-position: center center;
     opacity: 0;
     position: absolute;
-    height: 200px;
-    width: 453px;
+    height: 250px;
+    width: 500px;
 }
 .contenedor__navegacion--link:hover {
     border-bottom: 2px black solid;
@@ -42,8 +42,8 @@
     background-position: center center;
     opacity: 0;
     position: absolute;
-    height: 202px;
-    width: 430px;
+    height: 250px;
+    width: 500px;
 }
 
 .cardmodal2:hover {
