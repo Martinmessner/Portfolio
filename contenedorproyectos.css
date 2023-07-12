@@ -55,3 +55,13 @@
     opacity: 1;
     transition: all .8s linear;
 }
+
+@media (max-width: 500px) {
+    .contenedor__proyecto--img {
+        height: 200px;
+        width: 300px;
+        display: flex;
+        margin: auto;
+        object-fit: contain;
+    }
+  }
