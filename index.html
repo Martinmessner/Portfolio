@@ -1,225 +1,510 @@
 <!DOCTYPE html>
 <html lang="es" data-dark>
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="https://use.fontawesome.com/releases/v6.1.2/js/all.js"
-        integrity="sha384-11X1bEJVFeFtn94r1jlvSC7tlJkV2VJctorjswdLzqOJ6ZvYBSZQkaQVXG0R4Flt"
-        crossorigin="anonymous"></script>
-     <link rel="shortcut icon" href="/img/icon-arg.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
-        integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="dark-mode.css">
-    <link rel="stylesheet" href="contenedorproyectos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v6.1.2/js/all.js"
+      integrity="sha384-11X1bEJVFeFtn94r1jlvSC7tlJkV2VJctorjswdLzqOJ6ZvYBSZQkaQVXG0R4Flt"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="/img/icon-arg.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+      integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="dark-mode.css" />
+    <link rel="stylesheet" href="contenedorproyectos.css" />
     <title>Portfolio: Martin Messner</title>
-</head>
+  </head>
 
-<body id="inicio" data-dark>
-
+  <body id="inicio" data-dark>
     <div class="xd">
-        <button class="panel-btn hamburger hamburger--vortex" type="button">
-            <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-            </span>
-        </button>
+      <button class="panel-btn hamburger hamburger--vortex" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
     </div>
 
     <header class="contenedor__header" data-dark>
-        <ul class="contenedor__navegacion">
-            <ul class="iconos__presentacion">
-                <li><a href="https://www.linkedin.com/in/martin-gabriel-messner-98a587217/" class="footer__linkedin"
-                        target="_blank"><i class="fa-brands fa-linkedin iconosfooter"></i></a>
-                </li>
-                <li><a href="https://github.com/Martinmessner?tab=repositories" class="footer__instagram"
-                        target="_blank"><i class="fa-brands fa-github iconosfooter"></i></a>
-                </li>
-                <li class="footer__envelope"><a href="mailto:martinmessner95@gmail.com"><i
-                            class="fas fa-envelope iconosfooter"></i></a></li>
-            </ul>
-
-            <li class="contenedor__navegacion--nav"><a class="contenedor__navegacion--link" href="#inicio">Inicio</a>
-            </li>
-            <li class="contenedor__navegacion--nav"><a class="contenedor__navegacion--link"
-                    href="#skills">Habilidades</a>
-            </li>
-            <li class="contenedor__navegacion--nav"><a class="contenedor__navegacion--link"
-                    href="#proyectos">Proyectos</a></li>
-            <li class="contenedor__navegacion--nav"><a class="contenedor__navegacion--link"
-                    href="#contacto">Contacto</a></li>
-            <button class="dark-theme-btn">🌙</button>
+      <ul class="contenedor__navegacion">
+        <ul class="iconos__presentacion">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/martin-gabriel-messner-98a587217/"
+              class="footer__linkedin"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin iconosfooter"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/Martinmessner?tab=repositories"
+              class="footer__instagram"
+              target="_blank"
+              ><i class="fa-brands fa-github iconosfooter"></i
+            ></a>
+          </li>
+          <li class="footer__envelope">
+            <a href="mailto:martinmessner95@gmail.com"
+              ><i class="fas fa-envelope iconosfooter"></i
+            ></a>
+          </li>
         </ul>
+
+        <li class="contenedor__navegacion--nav">
+          <a class="contenedor__navegacion--link" href="#inicio">Inicio</a>
+        </li>
+        <li class="contenedor__navegacion--nav">
+          <a class="contenedor__navegacion--link" href="#skills">Habilidades</a>
+        </li>
+        <li class="contenedor__navegacion--nav">
+          <a class="contenedor__navegacion--link" href="#proyectos"
+            >Proyectos</a
+          >
+        </li>
+        <li class="contenedor__navegacion--nav">
+          <a class="contenedor__navegacion--link" href="#contacto">Contacto</a>
+        </li>
+        <button class="dark-theme-btn">🌙</button>
+      </ul>
     </header>
 
     <div class="contenedor__fondo--presentacion" data-dark>
-        <h2 class="texto__presentacion">Hola, Soy Martin Messner</h2>
-        <p class="texto__presentacion">Soy Desarrollador Frontend</p>
-        <div class="texto__presentacion--div">
-        <a class="texto__presentacion--pdf" download href="./img/Martin Messner CV.pdf">Descargar CV <i
-                class="fa-solid fa-file-arrow-down"></i></a>
-        </div>
+      <h2 class="texto__presentacion">Hola, Soy Martin Messner</h2>
+      <p class="texto__presentacion">Soy Desarrollador Frontend</p>
+      <div class="texto__presentacion--div">
+        <a
+          class="texto__presentacion--pdf"
+          download
+          href="./img/Martin Messner CV.pdf"
+          >Descargar CV <i class="fa-solid fa-file-arrow-down"></i
+        ></a>
+      </div>
     </div>
 
-    <section class="contenedor__fondo" data-dark>
-    </section>
+    <section class="contenedor__fondo" data-dark></section>
 
     <main id="skills" class="contenedor__skills" data-dark>
-        <h1 class="contenedor__skills-h1"> Habilidades  </h1>
-        <ul class="contenedor__lenguajes">
-            <li class="logo-lenguajes"><img alt="HTML" title="HTML" class="logo-lenguajes--img" src="img/htmll.svg">HTML</li>
-            <li class="logo-lenguajes"><img alt="CSS"  title="CSS"  class="logo-lenguajes--img" src="./img/css.svg">CSS</li>
-            <li class="logo-lenguajes"><img alt="JavaScript" title="JavaScript" class="logo-lenguajes--img" src="./img/jss.svg">JavaScript</li>
-            <li class="logo-lenguajes"><img alt="React" title="React" class="logo-lenguajes--img" src="./img/react.png">React</li>
-            <li class="logo-lenguajes"><img alt="Git" title="Git"  class="logo-lenguajes--img" src="./img/git.svg">Git</li>
-            <li class="logo-lenguajes"><img alt="GitHub" title="GitHub"  class="logo-lenguajes--img" src="img/github.svg">GitHub</li>
-            <li class="logo-lenguajes"><img alt="MongoDB" title="MongoDB" class="logo-lenguajes--img"
-                    src="./img/mongodb-ar21.svg">MongoDB</li>
-            <li class="logo-lenguajes"><img alt="Node"  title="Node" class="logo-lenguajes--img" src="./img/nodejs.svg">Node</li>
-            <li class="logo-lenguajes"><img alt="Astro" title="Astro"  class="logo-lenguajes--img" src="./img/astro.webp">Astro</li>
-          
-        </ul>
+      <h1 class="contenedor__skills-h1">Habilidades</h1>
+      <ul class="contenedor__lenguajes">
+        <li class="logo-lenguajes">
+          <img
+            alt="HTML"
+            title="HTML"
+            class="logo-lenguajes--img"
+            src="img/htmll.svg"
+          />HTML
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="CSS"
+            title="CSS"
+            class="logo-lenguajes--img"
+            src="./img/css.svg"
+          />CSS
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="JavaScript"
+            title="JavaScript"
+            class="logo-lenguajes--img"
+            src="./img/jss.svg"
+          />JavaScript
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="React"
+            title="React"
+            class="logo-lenguajes--img"
+            src="./img/react.png"
+          />React
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="Git"
+            title="Git"
+            class="logo-lenguajes--img"
+            src="./img/git.svg"
+          />Git
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="GitHub"
+            title="GitHub"
+            class="logo-lenguajes--img"
+            src="img/github.svg"
+          />GitHub
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="MongoDB"
+            title="MongoDB"
+            class="logo-lenguajes--img"
+            src="./img/mongodb-ar21.svg"
+          />MongoDB
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="Node"
+            title="Node"
+            class="logo-lenguajes--img"
+            src="./img/nodejs.svg"
+          />Node
+        </li>
+        <li class="logo-lenguajes">
+          <img
+            alt="Astro"
+            title="Astro"
+            class="logo-lenguajes--img"
+            src="./img/astro.webp"
+          />Astro
+        </li>
+      </ul>
     </main>
 
     <div class="contenedor__proyectos" id="proyectos" data-dark>
-        <h2 class="contenedor__proyectos--h2"> Proyectos </h2>
+      <h2 class="contenedor__proyectos--h2">Proyectos</h2>
     </div>
 
     <section class="contenedor__proyecto--div" data-dark>
-       
-
-        <article class="contenedor__proyecto-explicacion">
-            <img src="./img/lol-img.webp" alt="Buscador de Usuarios de Lol" title="Buscador de Usuarios de Lol" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://lol-metrics.netlify.app/" target="_blank">
-                <button class="boton__div" type="submit">Visitar Web</button></a>
-            <a rel="noopener noreferrer" href="https://github.com/Martinmessner/league-of-legends" target="_blank">
-                <button class="boton__div" type="submit">Ver Repositorio</button></a>
-            <p> Bitcoin </p>
-            <p> React - WebSockets - CSS </p>
-        </article>
-        <article class="contenedor__proyecto-explicacion">
-            <img src="./img/btc.webp" alt="bitcoin" title="bitcoin-app" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://cryptocodebtc.netlify.app/" target="_blank">
-                <button class="boton__div" type="submit">Visitar Web</button></a>
-            <a rel="noopener noreferrer" href="https://github.com/Martinmessner/WebSocket-React-BTC" target="_blank">
-                <button class="boton__div" type="submit">Ver Repositorio</button></a>
-            <p> Bitcoin </p>
-            <p> React - WebSockets - CSS </p>
-        </article>
-        <article class="contenedor__proyecto-explicacion">
-            <img src="./img/busqueda-img.webp" alt="busqueda-img-app" title="busqueda-de-imagenes" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://imagenhd-react.netlify.app/" target="_blank">
-                <button class="boton__div" type="submit">Visitar Web</button></a>
-            <a rel="noopener noreferrer" href="https://github.com/Martinmessner/buscadorimagenes-react" target="_blank">
-                <button class="boton__div" type="submit">Ver Repositorio</button></a>
-            <p> Busqueda de Imagenes</p>
-            <p> React - CSS </p>
-        </article>
-        <article class="contenedor__proyecto-explicacion">
-            <img src="./img/chatgpt.PNG" alt="entrevista-midudev-react" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://chatgpt-messner.netlify.app/" target="_blank">
-                <button class="boton__div" type="submit">Visitar Web</button></a>
-            <a rel="noopener noreferrer" href="https://github.com/Martinmessner/messnerIA-openAI" target="_blank">
-                <button class="boton__div" type="submit">Ver Repositorio</button></a>
-            <p>ChatGPT Express con React</p>
-        </article>
-        <article class="contenedor__proyecto-explicacion">
-            <div class="cardmodal"></div>
-            <img src="./img/ecommerce2.PNG" alt="ecommerce" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://ecommerce-test-1l37.onrender.com/login" target="_blank">
-                <button class="boton__div" type="submit">Visitar Web</button></a>
-            <a rel="noopener noreferrer" href="https://github.com/Martinmessner/API-REST-Ecommerce-NodeJs" target="_blank">
-                <button class="boton__div" type="submit">Ver Repositorio</button></a>
-            <p>Ecommerce creado con:</p>
-            <p>HTML - CSS - JavaScript - Node - Express - MongoDB </p>
-        </article>
-        <article class="contenedor__proyecto-explicacion">
-            <img src="./img/paisesReact.PNG" alt="paisesReactt" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://allpaises.netlify.app/" target="_blank">
-                <button class="boton__div" type="submit">Visitar Web</button></a>
-            <a rel="noopener noreferrer" href="https://github.com/Martinmessner/React-Paises" target="_blank">
-                <button class="boton__div" type="submit">Ver Repositorio</button></a>
-                <p>API de Paises con React y React-draggable </p>
-        </article>
-        <article class="contenedor__proyecto-explicacion">
-            <img src="./img/crudreact.PNG" alt="react-crud" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://notas-efectosublimados.netlify.app/" target="_blank">
-                <button class="boton__div" type="submit">Visitar Web</button></a>
-            <a rel="noopener noreferrer" href="https://github.com/Martinmessner/CRUDREACT-NOTAS" target="_blank">
-                <button class="boton__div" type="submit">Ver Repositorio</button></a>
-            <p>App de Notas con React </p>
-        </article>
-        <article class="contenedor__proyecto-explicacion">
-            <img src="./img/navideño.PNG" alt="navideño-react" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://regalos-navidenios.netlify.app/" target="_blank">
-                <button class="boton__div" type="submit">Visitar Web</button></a>
-                <a rel="noopener noreferrer" href="https://github.com/Martinmessner/challenge-goncy-advency" target="_blank">
-                    <button class="boton__div" type="submit">Ver Repositorio</button></a>
-            <p>App de Regalos con React </p>
-        </article>
-        <article class="contenedor__proyecto-explicacion">
-            <img src="./img/entrevista-tecnica.webp" alt="entrevista-midudev-react" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://practica-de-entrevista-tenica.netlify.app/" target="_blank">
-                <button class="boton__div" type="submit">Visitar Web</button></a>
-                <a rel="noopener noreferrer" href="https://github.com/Martinmessner/entrevista-tecnica-react-midudev-prueba" target="_blank">
-                    <button class="boton__div" type="submit">Ver Repositorio</button></a>
-            <p> Practica de Entrevista con React - Midudev. </p>
-        </article>
-        <article class="contenedor__proyecto-explicacion">
-            <img src="./img/ta-te-ti.webp" alt="entrevista-midudev-react" class="contenedor__proyecto--img">
-            <a rel="noopener noreferrer" href="https://tateti-messi.netlify.app/" target="_blank">
-                <button class="boton__div" type="submit">Visitar Web</button></a>
-                <a rel="noopener noreferrer" href="https://github.com/Martinmessner/tateti-practica-react-vite" target="_blank">
-                    <button class="boton__div" type="submit">Ver Repositorio</button></a>
-                    <p> Ta-te-ti con React</p>
-                </article>
-                <article class="contenedor__proyecto-explicacion">
-                    <img src="./img/frontendmentor-landingpage.PNG" alt="frontend-mentor" class="contenedor__proyecto--img">
-                    <a rel="noopener noreferrer" href="https://landin-page-frontendmentor.netlify.app/" target="_blank">
-                        <button class="boton__div" type="submit">Visitar Web</button></a>
-                    <a rel="noopener noreferrer" href="https://github.com/Martinmessner/FRONTENDMENTOR-LandingPage" target="_blank">
-                        <button class="boton__div" type="submit">Ver Repositorio</button></a>
-                    <p> Landing Page FrontEnd Mentor </p>
-                    <p>HTML - CSS - JavaScript</p>
-                </article>
-       
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/lol-img.webp"
+          alt="Buscador de Usuarios de Lol"
+          title="Buscador de Usuarios de Lol"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://lol-metrics.netlify.app/"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Visitar Web</button></a
+        >
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Martinmessner/league-of-legends"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>Bitcoin</p>
+        <p>React - WebSockets - CSS</p>
+      </article>
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/btc.webp"
+          alt="bitcoin"
+          title="bitcoin-app"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://cryptocodebtc.netlify.app/"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Visitar Web</button></a
+        >
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Martinmessner/WebSocket-React-BTC"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>Bitcoin</p>
+        <p>React - WebSockets - CSS</p>
+      </article>
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/busqueda-img.webp"
+          alt="busqueda-img-app"
+          title="busqueda-de-imagenes"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://imagenhd-react.netlify.app/"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Visitar Web</button></a
+        >
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Martinmessner/buscadorimagenes-react"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>Busqueda de Imagenes</p>
+        <p>React - CSS</p>
+      </article>
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/chatgpt.PNG"
+          alt="entrevista-midudev-react"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://chatgpt-messner.netlify.app/"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Visitar Web</button></a
+        >
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Martinmessner/messnerIA-openAI"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>ChatGPT Express con React</p>
+      </article>
+      <article class="contenedor__proyecto-explicacion">
+        <div class="cardmodal"></div>
+        <img
+          src="./img/ecommerce2.PNG"
+          alt="ecommerce"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://ecommerce-test-1l37.onrender.com/login"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Visitar Web</button></a
+        >
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Martinmessner/API-REST-Ecommerce-NodeJs"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>Ecommerce creado con:</p>
+        <p>HTML - CSS - JavaScript - Node - Express - MongoDB</p>
+      </article>
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/paisesReact.PNG"
+          alt="paisesReactt"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://allpaises.netlify.app/"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Visitar Web</button></a
+        >
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Martinmessner/React-Paises"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>API de Paises con React y React-draggable</p>
+      </article>
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/crudreact.PNG"
+          alt="react-crud"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://notas-efectosublimados.netlify.app/"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Visitar Web</button></a
+        >
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Martinmessner/CRUDREACT-NOTAS"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>App de Notas con React</p>
+      </article>
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/navideño.PNG"
+          alt="navideño-react"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://regalos-navidenios.netlify.app/"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Visitar Web</button></a
+        >
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Martinmessner/challenge-goncy-advency"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>App de Regalos con React</p>
+      </article>
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/entrevista-tecnica.webp"
+          alt="entrevista-midudev-react"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://practica-de-entrevista-tenica.netlify.app/"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Visitar Web</button></a
+        >
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Martinmessner/entrevista-tecnica-react-midudev-prueba"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>Practica de Entrevista con React - Midudev.</p>
+      </article>
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/ta-te-ti.webp"
+          alt="entrevista-midudev-react"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://tateti-messi.netlify.app/"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Visitar Web</button></a
+        >
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Martinmessner/tateti-practica-react-vite"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>Ta-te-ti con React</p>
+      </article>
+      <article class="contenedor__proyecto-explicacion">
+        <img
+          src="./img/frontendmentor-landingpage.PNG"
+          alt="frontend-mentor"
+          class="contenedor__proyecto--img"
+        />
+        <a
+          rel="noopener noreferrer"
+          href="https://landin-page-frontendmentor.netlify.app/"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Visitar Web</button></a
+        >
+        <a
+          rel="noopener noreferrer"
+          href="https://github.com/Martinmessner/FRONTENDMENTOR-LandingPage"
+          target="_blank"
+        >
+          <button class="boton__div" type="submit">Ver Repositorio</button></a
+        >
+        <p>Landing Page FrontEnd Mentor</p>
+        <p>HTML - CSS - JavaScript</p>
+      </article>
     </section>
 
     <section class="contenedor__form" id="contacto" data-dark>
-        <h2 class="contenedor__form--h2"> Contactame</h2>
-        <div class="contenedor__input--div">
-            <h2 class="h2__input"> Espero tu mensaje</h2>
-            <form class="contenedor__input" method="post" action="/correo.php" data-netlify="true">
-                <input class="form__input" type="text" name="name" autocomplete="off" placeholder="Nombre">
-                <input class="form__input" type="email" name="email" autocomplete="off" placeholder="Email">
-                <input class="form__input" type="text" name="asunto" autocomplete="off" placeholder="Asunto">
-                <textarea class="form__input" type="text" name="textarea" rows="9" required="true"
-                    placeholder="Mensaje"></textarea>
-                <input class="form__input boton__enviar" type="submit" name="enviar">
-            </form>
-        </div>
+      <h2 class="contenedor__form--h2">Contactame</h2>
+      <div class="contenedor__input--div">
+        <h2 class="h2__input">Espero tu mensaje</h2>
+        <form
+          class="contenedor__input"
+          method="post"
+          action="/correo.php"
+          data-netlify="true"
+        >
+          <input
+            class="form__input"
+            type="text"
+            name="name"
+            autocomplete="off"
+            placeholder="Nombre"
+          />
+          <input
+            class="form__input"
+            type="email"
+            name="email"
+            autocomplete="off"
+            placeholder="Email"
+          />
+          <input
+            class="form__input"
+            type="text"
+            name="asunto"
+            autocomplete="off"
+            placeholder="Asunto"
+          />
+          <textarea
+            class="form__input"
+            type="text"
+            name="textarea"
+            rows="9"
+            required="true"
+            placeholder="Mensaje"
+          ></textarea>
+          <input
+            class="form__input boton__enviar"
+            type="submit"
+            name="enviar"
+          />
+        </form>
+      </div>
     </section>
 
-
     <footer>
-        <div class="footer" data-dark>
-            <ul class="footer__ul">
-                <li><a rel="noopener noreferrer" href="https://www.linkedin.com/in/martin-gabriel-messner-98a587217/"
-                        class="footer__linkedin" target="_blank"><i class="fa-brands fa-linkedin iconosfooter"></i></a>
-                </li>
-                <li><a rel="noopener noreferrer" href="https://github.com/Martinmessner?tab=repositories"
-                        class="footer__instagram" target="_blank"><i class="fa-brands fa-github iconosfooter"></i></a>
-                </li>
-                <li class="footer__envelope"><a href="mailto:martinmessner95@gmail.com"><i
-                            class="fas fa-envelope iconosfooter"></i></a></li>
-
-            </ul>
-        </div>
+      <div class="footer" data-dark>
+        <ul class="footer__ul">
+          <li>
+            <a
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/martin-gabriel-messner-98a587217/"
+              class="footer__linkedin"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin iconosfooter"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              rel="noopener noreferrer"
+              href="https://github.com/Martinmessner?tab=repositories"
+              class="footer__instagram"
+              target="_blank"
+              ><i class="fa-brands fa-github iconosfooter"></i
+            ></a>
+          </li>
+          <li class="footer__envelope">
+            <a href="mailto:martinmessner95@gmail.com"
+              ><i class="fas fa-envelope iconosfooter"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </footer>
-
-</body>
-<script defer src="app.js"></script>
-
+  </body>
+  <script defer src="app.js"></script>
 </html>
